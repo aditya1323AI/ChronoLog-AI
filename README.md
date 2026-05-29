@@ -29,13 +29,13 @@ The project aims to simplify cloud log monitoring by providing real-time analyti
 
 ## Main Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.jpeg)
 
 ---
 
 ## Anomaly Detection
 
-![Anomaly](screenshots/anomaly.png)
+![Anomaly](screenshots/anomaly.jpeg)
 
 ---
 
