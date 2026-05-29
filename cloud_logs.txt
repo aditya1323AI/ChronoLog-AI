@@ -1,0 +1,41 @@
+2025-01-21 10:32:15 ERROR Database connection timeout host=db1
+2025-01-21 10:32:18 INFO User login successful user_id=101
+2025-01-21 10:33:01 WARN High memory usage detected container=auth
+2025-01-21 10:33:10 ERROR Failed to fetch API response endpoint=/pay
+2025-01-21 10:34:22 INFO Service started successfully service=payment
+2025-01-21 10:35:05 ERROR Database connection timeout host=db2
+2025-01-21 10:35:30 WARN CPU utilization high host=server1
+2025-01-21 10:36:00 INFO Backup completed
+2025-01-21 10:36:20 ERROR Redis connection lost
+2025-01-21 10:36:40 WARN Disk space low
+2025-01-21 10:37:05 INFO User logout
+2025-01-21 10:37:30 ERROR Payment failed
+2025-01-21 10:37:55 WARN Slow query detected
+2025-01-21 10:38:20 INFO Health check passed
+2025-01-21 10:38:45 ERROR Container crashed
+2025-01-21 10:39:10 WARN Network latency detected
+2025-01-21 10:39:30 INFO Cache refresh completed
+2025-01-21 10:39:50 ERROR Unauthorized access attempt
+2025-01-21 10:40:10 INFO Worker started
+2025-01-21 10:40:30 WARN API rate limit approaching
+
+2025-01-21 10:41:15 ERROR Database timeout db3
+2025-01-21 10:41:18 INFO User login successful user_id=202
+2025-01-21 10:41:30 WARN CPU usage high server2
+2025-01-21 10:41:40 ERROR API failure /order
+2025-01-21 10:41:50 INFO Service running
+2025-01-21 10:42:00 ERROR Cache failure
+2025-01-21 10:42:10 WARN Memory leak detected
+2025-01-21 10:42:20 INFO Backup started
+2025-01-21 10:42:30 ERROR Disk write failed
+2025-01-21 10:42:40 WARN Network unstable
+2025-01-21 10:42:50 INFO User registered
+2025-01-21 10:43:00 ERROR Timeout API
+2025-01-21 10:43:10 WARN Slow response
+2025-01-21 10:43:20 INFO Health ok
+2025-01-21 10:43:30 ERROR Crash detected
+2025-01-21 10:43:40 WARN CPU spike
+2025-01-21 10:43:50 INFO Cache updated
+2025-01-21 10:44:00 ERROR Security breach attempt
+2025-01-21 10:44:10 INFO Worker active
+2025-01-21 10:44:20 WARN Disk warning
