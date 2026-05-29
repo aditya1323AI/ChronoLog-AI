@@ -2,20 +2,8 @@
 
 ## NLP Based AI-Powered Cloud-Native Log Monitoring and Anomaly Detection System
 
-ChronoLog is a real-time cloud monitoring and anomaly detection system developed using AWS, Machine Learning, and Streamlit. The system continuously monitors logs from AWS CloudWatch, processes them using TF-IDF vectorization and K-Means clustering, and detects unusual patterns automatically.
+ChronoLog is a real-time cloud monitoring and anomaly detection system developed using AWS, Machine Learning, and Streamlit. The system continuously monitors logs from AWS CloudWatch, processes them using TF-IDF vectorization and K-Means clustering, and detects unusual patterns automatically. To make the system more cloud-centric and production-oriented, Amazon S3 is used for log storage and backup purposes, while Amazon SNS (Simple Notification Service) is integrated for real-time alert notifications whenever anomalies are detected.
 The project aims to simplify cloud log monitoring by providing real-time analytics, anomaly alerts, and interactive visualizations through a lightweight dashboard.
-
-# Features
-
-- Real-time AWS CloudWatch log monitoring
-- AI-based anomaly detection using Machine Learning
-- TF-IDF feature extraction for log processing
-- K-Means clustering for anomaly identification
-- Interactive Streamlit dashboard
-- Live log streaming and monitoring
-- Real-time anomaly alerts
-- Graphical analysis and visual insights
-- Lightweight and scalable cloud-native architecture
 
 ---
 
@@ -39,21 +27,7 @@ The project aims to simplify cloud log monitoring by providing real-time analyti
 
 ---
 
-# Tech Stack
-
-| Technology | Purpose |
-|---|---|
-# ChronoLog-AI ☁️🚨
-
-ChronoLog-AI is an AI-powered cloud log monitoring and anomaly detection system designed to analyze real-time logs generated from cloud environments. The project combines Machine Learning, AWS Cloud Services, and Real-Time Visualization to automatically identify unusual patterns in logs without relying on predefined rules.
-
-The system continuously collects logs from AWS CloudWatch, processes them using Natural Language Processing (NLP) techniques, and applies Machine Learning algorithms to detect anomalies. Detected anomalies are displayed on an interactive Streamlit dashboard along with live log analytics and visualization graphs.
-
-To make the system more cloud-centric and production-oriented, Amazon S3 is used for log storage and backup purposes, while Amazon SNS (Simple Notification Service) is integrated for real-time alert notifications whenever anomalies are detected.
-
----
-
-## 🚀 Features
+## Features
 
 * Real-time log monitoring using AWS CloudWatch
 * Automated anomaly detection using Machine Learning
@@ -68,7 +42,7 @@ To make the system more cloud-centric and production-oriented, Amazon S3 is used
 
 ---
 
-## ☁️ AWS Services Used
+## AWS Services Used
 
 ### 1. Amazon CloudWatch
 
@@ -88,7 +62,7 @@ Used in Python to connect the application with AWS services like CloudWatch, S3,
 
 ---
 
-## 🧠 AI/ML Technologies Used
+## AI/ML Technologies Used
 
 * TF-IDF Vectorization
 * NLP-based Log Processing
@@ -97,7 +71,7 @@ Used in Python to connect the application with AWS services like CloudWatch, S3,
 
 ---
 
-## 📊 System Workflow
+## System Workflow
 
 1. Logs are generated from applications or cloud systems.
 2. Logs are stored and monitored using AWS CloudWatch.
@@ -112,7 +86,7 @@ Used in Python to connect the application with AWS services like CloudWatch, S3,
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Streamlit
